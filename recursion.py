@@ -48,8 +48,7 @@ def recursion(votes, states, tie):
         tie_count = recursion(votes, states + 1, tie)
     return tie_count
 
-# Create a list that contains the number of votes in the example case of 6 states 
-# used in Karl Sigman's Election-USA pdf 
+# Create a list that contains an arbitrary number of votes of 6 states 
 votes = [3, 4, 4, 5, 6, 8]
 
 # Call the 'tie' function to get the number of votes needed to for a tie and 
