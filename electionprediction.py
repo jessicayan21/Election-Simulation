@@ -1,5 +1,9 @@
 '''
-Assuming that each Battleground State (17 states with uncertain outcomes during 2000 election) outcome is determined by an iid fair coin toss (Bernoulli random variable = 0.5), this code simulates using Monte Carlo (using 1 million copies to average) to obtain the probability that Bush would win the election, and the probability that Gore would win the election, and the probability of a tie. See 2000.pdf for electoral college (EC) numbers of each Battleground States.
+Assuming that each Battleground State (17 states with uncertain outcomes during 2000 election) outcome is 
+determined by an iid fair coin toss (Bernoulli random variable = 0.5), this code simulates using Monte Carlo 
+(using 1 million copies to average) to obtain the probability that Bush would win the election, and the 
+probability that Gore would win the election, and the probability of a tie. See 2000.pdf for electoral college 
+(EC) numbers of each Battleground States.
 '''
 
 # Find the probability that Bush would win the election, and the probability that Gore 
