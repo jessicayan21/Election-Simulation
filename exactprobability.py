@@ -1,5 +1,10 @@
 '''
-The probabilities contained in the 2000.pdf file had been determined by extensive polling for Gore winning each of the 17 states (denote by p1,...,p17). Instead of p=0.5, each of the 17 Battleground States is determined by it own Bernoulli random variable - ie. Wisconsin has p=0.946 while Nevada has p=0.146. Using these new probabilities and the Monte Carlo method (using 1 million copies to average), this code simulates to obtain the probability that Bush would win the election, and the probability that Gore would win the election, and the probability of a tie
+The probabilities contained in the 2000.pdf file had been determined by extensive polling for Gore 
+winning each of the 17 states (denote by p1,...,p17). Instead of p=0.5, each of the 17 Battleground
+States is determined by it own Bernoulli random variable - ie. Wisconsin has p=0.946 while Nevada 
+has p=0.146. Using these new probabilities and the Monte Carlo method (using 1 million copies to average),
+this code simulates to obtain the probability that Bush would win the election, and the probability
+that Gore would win the election, and the probability of a tie
 '''
 # Import the numpy module 
 import numpy as np
