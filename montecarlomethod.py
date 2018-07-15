@@ -1,5 +1,8 @@
 '''
-Using the 51 Electoral College (EC) numbers that were used in the 2000 USA Presidential Election, estimate via Monte Carlo simulation (using iid Bernoulli random variables (1/2); e.g., a fair coin flip for each state), the number of ways there can be a tie in a presidential election. Repeat for the EC numbers that were used in the 2004/2008, and in 2012. p = .5
+Using the 51 Electoral College (EC) numbers that were used in the 2000 USA Presidential Election, estimate
+via Monte Carlo simulation (using iid Bernoulli random variables (1/2); e.g., a fair coin flip for each 
+state), the number of ways there can be a tie in a presidential election. Repeat for the EC numbers that
+were used in the 2004/2008, and in 2012. p = .5
 '''
 # Import the numpy module 
 import numpy as np
